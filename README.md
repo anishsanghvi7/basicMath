@@ -1,1 +1,0 @@
-# basicMath R Package
