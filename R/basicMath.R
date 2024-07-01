@@ -141,12 +141,3 @@ area_circ <- function(r) {pi*r^2}
 #' @export
 circumference <- function(r) {2*pi*r}
 
-library(devtools)
-library(roxygen2)
-
-package.skeleton(name = "basicMath")
-
-my.RPackage <- as.package("basicMath")
-load_all(my.RPackage)
-document(my.RPackage)
-
