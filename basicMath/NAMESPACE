@@ -1,0 +1,2 @@
+export("add", "area_circ", "area_parallelogram", "area_sq", "area_tri", "circumference", "divide", "factorial", "hypotenuse",
+       "is_triangle", "multiply", "sqr_root", "subtract")
