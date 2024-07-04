@@ -81,9 +81,9 @@ sqr_root <- function(x) {sqrt(x)}
 #' @export
 is_triangle <- function(x, y, z) {
   if (x + y > z || x + z > y || y + z > x) {
-    return(true)
+    return(TRUE)
   } else {
-    return(false)
+    return(FALSE)
   }
 }
 
